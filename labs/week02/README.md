@@ -1,34 +1,42 @@
 # Lab 02 – Python Logic & Control Structures
 
-## Problem Description
+## Brief Problem Description
 
-This lab practices Python variables, data types, conditional statements, and loops through small real-world problems.
+In this lab, I practiced solving small real-world problems using Python variables, data types, conditional statements, and loops. The tasks included tracking expenses, recommending an internet package, monitoring temperatures, and checking loan eligibility.
 
 ## Tasks Completed
 
-1. Daily Expense Tracker
-2. Internet Data Package Advisor
-3. Temperature Monitoring System
-4. Loan Eligibility Simulation
+### Task 1 – Daily Expense Tracker
+Calculated total daily expenses and checked whether the expenses exceeded a budget of 1500 PKR.
+
+### Task 2 – Internet Data Package Advisor
+Used user input and conditional statements to recommend a data package based on usage.
+
+### Task 3 – Temperature Monitoring System
+Used a for loop and counters to count normal and high temperature readings.
+
+### Task 4 – Loan Eligibility Simulation
+Used lists, loops, and compound conditions to count eligible applicants.
 
 ## Concepts Practiced
 
-- Variables and numeric data types
+- Variables and data types
 - Arithmetic operations
-- if / elif / else
-- for loops
+- Input handling
+- `if`, `elif`, and `else`
+- `for` loops
 - Counters
-- Compound conditions
-- User input
+- Lists
+- Compound conditions using `and`
 
 ## Challenges Faced
 
-The main challenge was understanding how conditions and loops can be combined to solve real-world problems. Testing different inputs helped me understand the logic.
+One challenge was understanding how to combine loops with conditional statements. I also had to carefully check the conditions so that each input or record was classified correctly.
 
-## AI/Data Analysis Relevance
+## AI/ML Relevance
 
-These programming concepts are important for AI and data analysis because programs often process data, apply rules, and produce meaningful results.
+These programming concepts are important for AI and data analysis because programs often process data, apply rules, and produce decisions. Loops and conditions are basic building blocks for processing datasets and implementing rule-based logic.
 
-## Reflection
+## Written Reflection
 
-I practiced converting problem statements into Python logic using variables, conditions, and loops. One challenge was making sure all conditions were logically complete. This lab helped me understand how basic programming logic can be used to process data before working with AI and machine learning.
+This lab helped me improve my logical thinking by converting real-world problems into Python programs. I practiced using conditions and loops to process different types of data. One challenge was making sure the conditions covered the required cases correctly. These concepts are useful in AI and data analysis because they help programs process information and make rule-based decisions.
