@@ -5,7 +5,7 @@ import sys
 print("================================")
 print("AI-216 Programming for AI")
 print("================================")
-print("Name: Rida Khan")
+print("Name: rida khan")
 print("Student ID: 10603")
 print("Python version:", sys.version)
 
