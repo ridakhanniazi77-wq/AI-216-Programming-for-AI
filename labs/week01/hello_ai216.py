@@ -10,6 +10,8 @@ print("Name: Wali Khan")
 print("ID: 10404")
 print(f"Python Version: {sys.version}")
 
+print("----------------------------------------")
+
 print("\nWhat Programming for AI means to me:")
 print("Programming for AI means using programming skills")
 print("to solve problems and build intelligent applications.")
