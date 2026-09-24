@@ -1,4 +1,6 @@
-usage = float(input("Enter data usage in GB: "))
+# Task 2: Internet Data Package Advisor
+
+usage = float(input("Enter your data usage in GB: "))
 
 if usage <= 5:
     package = "Basic Package"
@@ -7,4 +9,4 @@ elif usage <= 15:
 else:
     package = "Premium Package"
 
-print("Recommended:", package)
+print(f"Recommended Package: {package}")

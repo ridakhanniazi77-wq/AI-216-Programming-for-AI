@@ -1,42 +1,55 @@
 # Lab 03 – Functions & Object-Oriented Programming
 
-## Problem Description
+## Brief Overview
 
-This lab practices functions, modular programming, classes, objects, attributes, and methods using simple AI and data-related problems.
+In this lab, I practiced using functions and object-oriented programming in Python. The tasks focused on breaking problems into reusable functions and creating classes to organize data and behavior.
 
-## Tasks Completed
+## Task 1 – Data Cleaning Functions
 
-1. Data Cleaning Functions
-2. Student Record Processor
-3. Simple Dataset Class
-4. Rule-Based Classifier
+I created functions to remove invalid sensor readings and calculate the average of the cleaned data.
 
-## Design Decisions
+**Design decision:** The cleaning and average calculations were placed in separate functions so each function has one clear responsibility.
 
-Functions were used to separate reusable tasks such as cleaning data, calculating averages, and checking student results. Classes were used when data and related behavior needed to be grouped together.
+## Task 2 – Student Record Processor
+
+I used functions to calculate student averages, determine pass/fail status, and display a summary for each student.
+
+**Design decision:** Separate functions make the code easier to reuse and understand.
+
+## Task 3 – Simple Dataset Class
+
+I created a `Dataset` class that stores numeric values and provides methods for counting data points and calculating the average.
+
+**Design decision:** The dataset values are stored inside the object, while methods perform operations on that data.
+
+## Task 4 – Rule-Based Classifier
+
+I created a `RuleBasedClassifier` class that stores a threshold and classifies individual values or lists of values.
+
+**Design decision:** The threshold is stored as an attribute so the same classifier object can be reused with different values.
 
 ## Concepts Practiced
 
 - Function definitions
 - Parameters and return values
-- for loops
-- Dictionaries and lists
+- Functions calling other functions
+- Lists and dictionaries
 - Classes and objects
-- Attributes and methods
+- Attributes
+- Methods
+- Constructors
 - Conditional logic
-- Rule-based classification
+- Loops
+- Reusable and modular code
 
 ## Challenges Faced
 
-The main challenge was understanding how functions and classes organize code differently. Using methods helped me understand how objects can store data and perform operations on that data.
+One challenge was deciding how to divide each problem into smaller functions or class methods. I also had to understand how attributes and methods work together inside an object.
 
 ## AI/ML Relevance
 
-Functions and classes are important in AI and machine learning because large systems are divided into reusable components. Data processing, models, and evaluation methods can be organized into separate functions and classes.
+Functions and classes are important in AI and machine learning because AI programs are usually divided into reusable components. For example, data cleaning, datasets, classifiers, and models can each be represented by separate functions or classes.
 
-## Reflection
+## Written Reflection
 
-Functions felt useful because they allow repeated logic to be written once and reused.  
-The main difficulty was understanding how attributes and methods work inside a class.  
-This lab showed me how structured code can organize data-processing and classification tasks.  
-These concepts are useful for building larger AI and machine learning systems.
+This lab helped me understand how functions make code reusable and organized, while OOP helps combine data and related behavior. One difficulty was understanding how class attributes and methods work together. These concepts are useful in AI and machine learning because large systems are built from separate, reusable components.

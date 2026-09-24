@@ -1,4 +1,6 @@
-temperatures = [18, 22, 31, 27, 35, 29, 15, 33]
+# Task 3: Temperature Monitoring System
+
+temperatures = [18, 22, 31, 27, 35, 29, 32, 20]
 
 normal_count = 0
 high_count = 0
@@ -9,5 +11,7 @@ for temperature in temperatures:
     elif temperature > 30:
         high_count += 1
 
-print("Normal readings:", normal_count)
-print("High readings:", high_count)
+print("Temperature Monitoring System")
+print("-----------------------------")
+print(f"Normal readings: {normal_count}")
+print(f"High readings: {high_count}")
