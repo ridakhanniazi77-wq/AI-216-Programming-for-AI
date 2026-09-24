@@ -23,3 +23,9 @@ This course focuses on programming concepts and tools used in Artificial Intelli
 - Git
 - GitHub
 - Visual Studio Code
+## Learning Goals
+
+- Understand the basic Git workflow.
+- Create and manage a GitHub repository.
+- Practice commits, branches, merging, and pushing changes.
+- Understand why version control is useful in AI and machine learning projects
